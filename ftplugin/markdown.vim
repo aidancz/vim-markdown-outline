@@ -6,6 +6,7 @@
 if exists('g:loaded_markdown_outline') && g:loaded_markdown_outline
   finish
 endif
+let g:loaded_markdown_outline = 1
 
 let b:toc = []
 let b:closest_heading = 0
