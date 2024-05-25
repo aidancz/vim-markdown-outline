@@ -11,7 +11,7 @@ let g:loaded_markdown_outline = 1
 let b:toc = []
 let b:closest_heading = 0
 
-echom expand('%')
+" echom expand('%')
 
 function s:is_heading(text, lnum) abort
   " Match standard # heading
